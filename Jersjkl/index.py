@@ -129,5 +129,3 @@ def areformulario5():
 
     return render_template('formulario5.html', figura=figura, area=area_calculada, error=error)
     
-if __name__ == '__main__':
-    app.run()
